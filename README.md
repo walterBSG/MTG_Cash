@@ -17,9 +17,8 @@ To use MTG_Cash, follow these steps:
 
 The text format must be structured as follows:
 
-1 W W Enchantment Artifact and enchantment spells your opponents cast cost {2} more to cast.
-Sacrifice Aura of Silence: Destroy target artifact or enchantment. 10E uncommon {'commander': 'Legal', 'duel': 'Legal', 'legacy': 'Legal', 'modern': 'Legal', 'premodern': 'Legal', 'vintage': 'Legal'} True
-
+`1 W W Enchantment Artifact and enchantment spells your opponents cast cost {2} more to cast.
+Sacrifice Aura of Silence: Destroy target artifact or enchantment. 10E uncommon {'commander': 'Legal', 'duel': 'Legal', 'legacy': 'Legal', 'modern': 'Legal', 'premodern': 'Legal', 'vintage': 'Legal'} True`
 
 The "True" at the end of the text indicates if the card is foil.
 
@@ -32,4 +31,5 @@ Here are some of the planned improvements for MTG_Cash:
 - Improved input format (e.g. by name, ID, etc.)
 - Refined dataset
 - Easier process for retraining
+- Implement visualization of results using graphs and charts to better understand the data.
 - Batch prediction capability
